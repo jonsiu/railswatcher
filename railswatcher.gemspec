@@ -5,7 +5,7 @@ require "railswatcher/version"
 
 Gem::Specification.new do |s|
   s.name        = "railswatcher"
-  s.version     = Railswatcher::VERSION
+  s.version     = RailsWatcher::VERSION
   s.platform    = Gem::Platform::RUBY
   s.licenses    = ['MIT']
   s.authors     = ["Jonathan Siu"]
