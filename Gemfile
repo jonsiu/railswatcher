@@ -1,12 +1,14 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
-
-# Specify your gem's dependencies in railswatcher.gemspec
 gemspec
 
 gem "rake", "~> 13.0"
+gem "httparty", "~> 0.17.3"
+gem "activesupport", "~> 6.1"
 
-gem "minitest", "~> 5.0"
+group :development do
+  gem "rubocop", "~> 1.28.2"
+end
 
-gem "rubocop", "~> 1.21"
+group :test do
+    gem "minitest", "~> 5.0"
+end
